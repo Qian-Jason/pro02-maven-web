@@ -8,5 +8,6 @@ public class HelloServlet extends HttpServlet{
 protected void doGet(HttpServletRequest request, HttpServletResponse
 response) throws ServletException, IOException {
 response.getWriter().write("hello maven web");
+response.getWriter().write("hello maven");
 }
 }
